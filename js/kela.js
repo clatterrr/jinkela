@@ -173,7 +173,7 @@ Game.prototype.create = function (level) {
         xiecnt[i] = 0;
     }
     for (var i = 1; i <= this.cirnum; i++) {
-        for (var va = 1; va <= 2; va++) {
+        for (var va = 1; va <= 1; va++) {
             mindis = 999999;
             ind = 0;
             for (var j = 1; j <= this.cirnum; j++) {
